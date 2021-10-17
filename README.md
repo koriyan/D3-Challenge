@@ -1,4 +1,4 @@
-# D3 Homework - Data Journalism and D3
+# D3-Challenge
 
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
@@ -10,21 +10,7 @@ The editor wants to run a series of feature stories about the health risks facin
 
 The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/), but you are free to investigate a different data set. The current data set includes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
 
-### Before You Begin
-
-1. Create a new repository for this project called `D3-Challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the D3 challenge. Use the folder name to correspond to the challenge: **D3_data_journalism**.
-
-4. This homework utilizes both **html** and **Javascript** so be sure to add all the necessary files. These will be the main files to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
-
-## Your Task
-
-### Core Assignment: D3 Dabbler (Required Assignment)
+### Step 1: D3 Dabbler 
 
 ![4-scatter](Images/4-scatter.jpg)
 
@@ -40,7 +26,7 @@ Using the D3 techniques we taught you in class, create a scatter plot that repre
 
 - - -
 
-### Bonus: Impress the Boss (Optional Assignment)
+### Step 2: Impress the Boss (Optional Assignment)
 
 Why make a static graphic when D3 lets you interact with your data?
 
@@ -59,31 +45,3 @@ While the ticks on the axes allow us to infer approximate values for each circle
 ![8-tooltip](Images/8-tooltip.gif)
 
 * Check out [David Gotz's example](https://bl.ocks.org/davegotz/bd54b56723c154d25eedde6504d30ad7) to see how you should implement tooltips with d3-tip.
-
-- - -
-
-### Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Creation of a **new** repository on GitHub called `D3-Challenge` (note the kebab-case). Do not add to an already existing repo.
-
-* Completion of all steps in the core assignment
-
-* Coherency of scatter plot (labels, ticks)
-
-* Visual attraction
-
-* Professionalism
-
-* Ensure your repository has regular commits and a thorough README.md file
-
-**Good luck!**
-
-## Rubric
-
-[Unit 16 Rubric - D3 Homework - Data Journalism and D3](https://docs.google.com/document/d/10v1svLr0DM7jvJlBqUKaCbGWcv-xT5rK9AMafU6su14/edit?usp=sharing)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
