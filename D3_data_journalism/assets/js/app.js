@@ -1,20 +1,20 @@
 // Define SVG area dimensions
-var svgWidth = 900;
+var svgWidth = 1000;
 var svgHeight = 600;
 
 // Define the chart's margins as an object
 var margin = {
-  top: 20,
+  top: 60,
   right: 40,
-  bottom: 120,
-  left: 100
+  bottom: 140,
+  left: 120
 };
 
 // Define dimensions of the chart area
 var chartWidth = svgWidth - margin.left - margin.right;
 var chartHeight = svgHeight - margin.top - margin.bottom;
 
-// Select id="scatter", append SVG area to it, and set its dimensions
+// Select the id, append SVG, and set its dimensions
 var svg = d3.select("#scatter")
   .append("svg")
   .attr("width", svgWidth)
@@ -48,7 +48,7 @@ function yScale(censusData, selectedY) {
 function renderX(newXScale, xAxis) {
   var bottomAxis = d3.axisBottom(newXScale);
   xAxis.transition()
-    .duration(2000)
+    .duration(3000)
     .call(bottomAxis);
   return xAxis;
 }
@@ -57,7 +57,7 @@ function renderX(newXScale, xAxis) {
 function renderY(newYScale, yAxis) {
   var leftAxis = d3.axisLeft(newYScale);
   yAxis.transition()
-    .duration(2000)
+    .duration(3000)
     .call(leftAxis);
   return yAxis;
 }
@@ -65,7 +65,7 @@ function renderY(newYScale, yAxis) {
 // Update the circles with a transition to match new parameters
 function renderCircles(circlesGroup, newXScale, selectedX, newYScale, selectedY) {
   circlesGroup.transition()
-    .duration(2000)
+    .duration(3000)
     .attr("cx", d => newXScale(d[selectedX]))
     .attr("cy", d => newYScale(d[selectedY]))
   return circlesGroup;
@@ -74,7 +74,7 @@ function renderCircles(circlesGroup, newXScale, selectedX, newYScale, selectedY)
 // Update the labels with state abbreviations
 function renderText(textGroup, newXScale, selectedX, newYScale, selectedY) {
   textGroup.transition()
-    .duration(2000)
+    .duration(3000)
     .attr("x", d => newXScale(d[selectedX]))
     .attr("y", d => newYScale(d[selectedY]))
   return textGroup;
