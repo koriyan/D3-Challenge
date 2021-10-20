@@ -10,7 +10,7 @@ The data set included with the challenge is based on ACS 1-year estimates from t
 
 ### Interactive Visualization
 
-![animated-scatter](Images/D3_KY.mov)
+![animated-scatter](Images/D3_KY.gif)
 
 #### 1. More Data, More Dynamics
 
